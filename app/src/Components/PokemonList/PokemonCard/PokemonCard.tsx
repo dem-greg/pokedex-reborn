@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import  "./PokemonCard.css"
-import "../../../assets/images/search.svg"
+import "../../../Assets/Images/search.svg"
 
 
 type PropsType = {

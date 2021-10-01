@@ -2,10 +2,8 @@ import React from 'react';
 import PokemonCard from "./PokemonCard/PokemonCard";
 import "./PokemonList.css"
 import PaginatorContainer from "./Paginator/PaginatorContainer";
-import PokemonSearchFormContainer from "./PokemonSearchForm/PokemonSearchFormContainer";
-import FilterContainer from "./Filter/FilterContainer";
 import { pokemonType } from '../../Types/Type';
-import Preloader from "../Preloader/preloader";
+
 
 
 type PropsType = {
@@ -13,10 +11,10 @@ type PropsType = {
     searchHistory: Array<pokemonType>
     isShowPaginator: boolean
     onDeleteFindPokemon: ()=> void
-    isLoading: boolean
+
 }
 
-let PokemonList: React.FC<PropsType> = ({isLoading, pokemonInfo,isShowPaginator, searchHistory,  onDeleteFindPokemon})=> {
+let PokemonList: React.FC<PropsType> = ({pokemonInfo,isShowPaginator, searchHistory,  onDeleteFindPokemon})=> {
 
     pokemonInfo.sort(function (a, b) {
         return a.id - b.id
@@ -33,10 +31,8 @@ let PokemonList: React.FC<PropsType> = ({isLoading, pokemonInfo,isShowPaginator,
                                              specialDefense={p.stats[4].base_stat}
                                              speed={p.stats[5].base_stat}/>)
  }
-    return (<div className="pokemon_page">
-            <PokemonSearchFormContainer />
-            <FilterContainer />
-            {searchHistory.length > 0  && !isLoading && <div className="found_border">
+    return (<div>
+            {searchHistory.length > 0  &&  <div className="found_border">
                 <h1>Found Pokemon:</h1>
                 <div className="container">
                     {onMapping(searchHistory)}
@@ -46,9 +42,8 @@ let PokemonList: React.FC<PropsType> = ({isLoading, pokemonInfo,isShowPaginator,
                 }}> close
                 </button>
             </div>}
-
             <div className="container">
-                {isLoading ? <Preloader/> : onMapping(pokemonInfo)}
+                {onMapping(pokemonInfo)}
             </div>
             {isShowPaginator && <PaginatorContainer/>}
         </div>

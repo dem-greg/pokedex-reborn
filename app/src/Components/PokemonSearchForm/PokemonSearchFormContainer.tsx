@@ -1,8 +1,8 @@
 import React from "react";
 import {connect} from "react-redux";
 import PokemonSearchForm from "./PokemonSearchForm";
-import {findPokemon} from "../../../Redux/pokedexReducer";
-import { AppStateType } from "../../../Redux/store";
+import {findPokemon} from "../../Redux/pokedexReducer";
+import { AppStateType } from "../../Redux/store";
 type MapStateToPropsType = {
     errorBySearch: boolean
 }

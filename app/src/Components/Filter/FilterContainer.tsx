@@ -6,9 +6,9 @@ import {
     getPokemonWithTypes,
     getTypes,
     requestPokemon,
-} from "../../../Redux/pokedexReducer";
-import {pokemonListType} from "../../../Types/Type";
-import {AppStateType} from "../../../Redux/store";
+} from "../../Redux/pokedexReducer";
+import {pokemonListType} from "../../Types/Type";
+import {AppStateType} from "../../Redux/store";
 
 
 type MapStateToPropsType = {

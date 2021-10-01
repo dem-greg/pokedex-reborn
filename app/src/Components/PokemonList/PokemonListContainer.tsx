@@ -8,6 +8,7 @@ import {
 } from "../../Redux/pokedexReducer";
 import {AppStateType} from "../../Redux/store";
 import {pokemonListType, pokemonType} from "../../Types/Type";
+import Preloader from "../Preloader/preloader";
 
 
 
@@ -44,6 +45,9 @@ class PokemonListContainer extends React.Component<PropsType> {
 
 
     render() {
+        if(this.props.isLoading){
+            return <Preloader />
+        }
 
         return (
              <PokemonList {...this.props} onDeleteFindPokemon={this.onDeleteFindPokemon}/>

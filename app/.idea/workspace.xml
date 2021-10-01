@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f41de74-41c4-4fcc-bac0-0b560b00486d" name="Default Changelist" comment="" />
+    <list default="true" id="8f41de74-41c4-4fcc-bac0-0b560b00486d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/PokemonList/Filter/Filter.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Filter/Filter.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/PokemonList/Filter/Filter.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Filter/Filter.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/PokemonList/Filter/FilterCheckbox/FilterCheckbox.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Filter/FilterCheckbox/FilterCheckbox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/PokemonList/Filter/FilterCheckbox/FilterCheckbox.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Filter/FilterCheckbox/FilterCheckbox.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/PokemonList/Filter/FilterContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Filter/FilterContainer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/PokemonList/PokemonCard/PokemonCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/PokemonList/PokemonCard/PokemonCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/PokemonList/PokemonList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/PokemonList/PokemonList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/PokemonList/PokemonListContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/PokemonList/PokemonListContainer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/PokemonList/PokemonSearchForm/PokemonSearchForm.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/PokemonSearchForm/PokemonSearchForm.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/PokemonList/PokemonSearchForm/PokemonSearchForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/PokemonSearchForm/PokemonSearchForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/PokemonList/PokemonSearchForm/PokemonSearchFormContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/PokemonSearchForm/PokemonSearchFormContainer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Preloader/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Preloader/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/search.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assets/Images/search.svg" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,8 +57,13 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="ts.external.directory.path" value="D:\pokedex\app\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="D:\github\pokedex-reborn\app\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\github\pokedex-reborn\app\src\Components" />
+    </key>
   </component>
   <component name="RunManager" selected="npm.start">
     <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -98,7 +119,7 @@
       <workItem from="1632996132583" duration="4940000" />
       <workItem from="1633027730129" duration="3600000" />
       <workItem from="1633078348182" duration="1058000" />
-      <workItem from="1633080210630" duration="398000" />
+      <workItem from="1633080210630" duration="2310000" />
     </task>
     <servers />
   </component>
