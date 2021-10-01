@@ -1,0 +1,40 @@
+
+.checkboxContainer{
+    display: flex;
+    align-items: center;
+    animation-duration: 2s;
+    animation-name: transparency;
+}
+
+input:checked + label {
+    background: linear-gradient(to bottom right, #012f5c, #57002d);
+    border: 1px solid rgba(255,255,255,0.2);
+}
+.checkboxContainer label{
+    box-sizing: border-box;
+    height: 40px;
+    display: flex;
+    border-radius: 10px;
+    min-width: 100px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px ;
+    color: white;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+}
+.checkboxType{
+    display: none;
+}
+@media (max-width: 1000px) {
+    .checkboxContainer label{
+        font-size: 22pt;
+        margin: 0 15px 0 15px;
+        padding: 10px 10px ;
+    }
+
+}
+
+

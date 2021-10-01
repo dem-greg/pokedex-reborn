@@ -1,0 +1,48 @@
+form {
+    display: flex;
+    align-self: center;
+    justify-content: flex-end;
+    width: auto;
+    margin-right: 30px;
+}
+.error_name{
+    border: 2px red solid;
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+@keyframes slidein {
+    0%, 50%, 100% {
+        transform: rotate(0deg);
+    }
+    10%, 30% {
+        transform: rotate(-1deg);
+    }
+    20%, 40% {
+        transform: rotate(1deg);
+    }
+
+}
+form input {
+    width: 250px;
+    height: 42px;
+    padding-left: 15px;
+    border-radius: 42px;
+    outline: none;
+    position: relative;
+    transition: .3s linear;
+}
+
+form input:focus {
+    width: 400px;
+}
+.btn_find {
+    display: none;
+}
+@media (max-width: 1000px) {
+
+    form input {
+        height: 60px;
+        font-size: 20pt;
+
+    }
+}

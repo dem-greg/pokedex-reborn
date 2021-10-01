@@ -1,0 +1,306 @@
+.card_bug, .card_normal {
+    border: 2px grey inset;
+}
+
+.tag_bug, .tag_normal {
+    background-color: grey;
+}
+
+.card_water {
+    border: 2px aqua inset;
+}
+
+.tag_water {
+    background-color: aqua;
+}
+
+.card_electric {
+    border: 2px rgba(238, 255, 0, 255) solid;
+}
+
+.tag_electric {
+    background-color: rgba(238, 255, 0, 255);
+}
+
+.card_fire {
+    border: 2px rgba(255, 30, 0, 255) solid;
+}
+
+.tag_fire {
+    background-color: rgba(255, 30, 0, 255);
+}
+
+.card_grass {
+    border: 2px green solid;
+}
+
+.tag_grass {
+    background-color: green;
+}
+
+.card_ground {
+    border: 2px #8B4513 solid;
+}
+
+.tag_ground {
+    background-color: #8B4513;
+    color: aliceblue !important;
+}
+
+.card_poison {
+    border: 2px #ADFF2F inset;
+}
+
+.tag_poison {
+    background-color: #ADFF2F;
+}
+
+.card_fairy {
+    border: 2px #FF00FF solid;
+}
+
+.tag_fairy {
+    background-color: #FF00FF;
+}
+
+.card_fighting {
+    border: 4px #4B0082 outset;
+
+}
+
+.tag_fighting {
+    background-color: #4B0082;
+    color: aliceblue !important;
+}
+
+.card_psychic {
+    border: 2px blue solid;
+
+}
+
+.tag_psychic {
+    background-color: #000080;
+    color: aliceblue !important;
+}
+
+.card_rock {
+    border: 2px #5F9EA0 solid;
+
+}
+
+.tag_rock {
+    background-color: #5F9EA0;
+
+}
+
+.card_ghost {
+    border: 2px #483D8B solid;
+}
+
+.tag_ghost {
+    background-color: #483D8B;
+}
+
+.card_ice {
+    border: 2px white solid;
+}
+
+.tag_ice {
+    background-color: white;
+}
+
+.card_dragon {
+    border: 2px gold inset;
+}
+
+.tag_dragon {
+    background-color: gold;
+}
+
+.card_dark {
+    border: 2px black outset;
+}
+
+.tag_dark {
+    background-color: black;
+    color: white !important;;
+}
+
+.card_steel {
+    border: 2px #5F9EA0 outset;
+}
+
+.tag_steel {
+    background-color: #5F9EA0;
+}
+.card_flying {
+    border: 2px coral outset;
+}
+
+.tag_flying {
+    background-color: cadetblue;
+}
+
+
+/**************card****************/
+.sideTrue{
+    display: flex;
+}
+.sideFalse{
+    display: none;
+    transition-duration: 3s;
+}
+
+.backside{
+    background: linear-gradient(to right, #a86e3c, #f5ae67);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    border-radius: 16px;
+    position: relative;
+}
+
+.backside div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px 0 10px 0;
+    color: white;
+}
+
+
+.photo {
+    width: 200px;
+    height: 200px;
+    margin-left: 20px;
+}
+
+
+.card {
+    margin: 30px;
+    width: 270px;
+    height: 400px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pokemon_id {
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+
+.main {
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.name {
+    text-transform: uppercase;
+    font-size: 25px;
+    letter-spacing: 4px;
+}
+
+.hp {
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 100;
+    font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.stats {
+    display: flex;
+    color: white;
+    padding: .75rem;
+}
+
+.stats_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px 0 10px;
+    font-weight: 700;
+    font-family: Cinzel Decorative, sans-serif;
+}
+
+.center_item {
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    padding: 10px;
+
+}
+
+.tag {
+
+    font-size: 10px;
+    border-radius: 10px;
+    margin-top: 5px;
+    padding: 5px 5px 5px 5px;
+    color: black;
+    text-align: center;
+}
+
+@media (max-width: 1000px) {
+    .card {
+        width: 470px;
+        height: 600px;
+    }
+    .backside div {
+        width: 90%;
+        margin: 15px 0 15px 0;
+    }
+
+  .backside div label{
+       font-size: 25pt;
+   }
+    .backside div progress{
+        width: 90%;
+    }
+
+    .photo {
+        width: 300px;
+        height: 300px;
+    }
+
+    .pokemon_id {
+        font-size: 25pt;
+    }
+
+
+
+
+    .name {
+        font-size: 30pt;
+    }
+
+    .hp {
+        font-size: 20pt;
+    }
+
+    .stats {
+        display: flex;
+        color: white;
+
+    }
+
+    .stats_item {
+        font-size: 20pt;
+    }
+
+    .tag {
+        font-size: 17pt;
+        border-radius: 20px;
+    }
+
+}
+
+
+
